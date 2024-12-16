@@ -1,0 +1,15 @@
+name: Demo Tofu GitHub Registry
+# Note: Inclusion in this sample file does not represent an endorsement or
+# recommendation of the module. These modules were selected solely for
+# demonstration purposes and because their tags are in the supported format.
+modules:
+  - name: vpc
+    namespace: dwp
+    system: aws
+    description: A Terraform module to create an AWS VPC with consistent features
+    repository: https://github.com/dwp/terraform-aws-vpc
+  - name: cloud-run
+    namespace: garbetjie
+    system: google
+    description: Terraform module to simplify the creation & management of Cloud Run services on GCP.
+    repository: https://github.com/garbetjie/terraform-google-cloud-run

@@ -1,0 +1,11 @@
+# Ignore all environment files.
+*.env*
+config/*
+!config/sample.yaml
+
+# Ignore build and test artifacts.
+Gemfile.lock
+coverage
+out
+vendor
+

@@ -1,0 +1,11 @@
+require:
+  - rubocop-grape
+  - rubocop-performance
+  - rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+Naming/FileName:
+  Exclude:
+    - lib/tofu-github-registry.rb
